@@ -4,6 +4,8 @@ use std::net::{TcpListener, TcpStream};
 fn handle_client(stream: TcpStream) {
     // ...
     println!("received package")
+    //initialize a 4 byte buffer for the tcp header
+
 }
 
 fn main() -> std::io::Result<()> {
